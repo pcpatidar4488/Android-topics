@@ -8,16 +8,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.abc.firebaseproject.MainActivity">
+    tools:context=".activity.MainActivity">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World !"
-        android:id="@+id/editText"/>
+        android:id="@+id/userName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"/>
    <Button
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="submit"
-       android:id="@+id/button"/>
+       android:id="@+id/submit"/>
 </LinearLayout>
